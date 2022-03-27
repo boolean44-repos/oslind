@@ -104,4 +104,4 @@ s4d.client.on('messageCreate', async (s4dmessage) => {
 });
 
                     return s4d
-                    })(); 
+                    })();
