@@ -1,0 +1,377 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="zw5[ufzxD]Ub/ll;rFp}">cmd</variable>
+  </variables>
+  <block type="frost_webserver" id="E`S3rAvDOc_H8%sC%ygp" collapsed="true" x="196" y="-42">
+    <value name="URL">
+      <shadow type="text" id="pI7?mX{Y!x:$^0PC`!,f">
+        <field name="TEXT">This site was created to keep bot on 25/8</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="s4d_login" id="g9lmq5esr$zPZ29=|a;=" collapsed="true" x="155" y="115">
+    <value name="TOKEN">
+      <shadow type="text" id="N[k/qweVpXs?CoP_-VrN">
+        <field name="TEXT">Your bot token</field>
+      </shadow>
+      <block type="frost_env" id="0411Lx*tkv7N;Xj,t^/?">
+        <value name="VALUE">
+          <shadow type="text" id="|ETr{ozj`sLu53WAh5[)">
+            <field name="TEXT">TOKEN</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="KQdD:yag.Tr[$@ybmoOy" x="-204" y="320">
+    <statement name="STATEMENTS">
+      <block type="variables_set" id="C2@l?c[6ekfTy6S81|4G">
+        <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+        <value name="VALUE">
+          <block type="text_changeCase" id="g3HpM%bM*.(cO.;R:V4r">
+            <field name="CASE">LOWERCASE</field>
+            <value name="TEXT">
+              <shadow type="text" id="Cegp67Yg-L4_/9B=QYfm">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="s4d_message_content" id="iA0~X%pj03G/5UnD=o@]"></block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="`muZ7t7RLRiFW,*0]|hw">
+            <value name="IF0">
+              <block type="s4d_includes" id="IrIt)(@o6mA{+hf-3Gxo">
+                <value name="TEXT">
+                  <shadow type="text" id="WD+LGW^q$!UT#z/Y#n$:">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="variables_get" id=".t.Nj.rI9DyG:J*TuD^}">
+                    <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                  </block>
+                </value>
+                <value name="INCLUDES">
+                  <shadow type="text" id="]vQkiB*R6t;=Y.UQ0]04">
+                    <field name="TEXT">nigga</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="s4d_delete" id="FH`s*,lN2Po0q6XC#RnT">
+                <next>
+                  <block type="s4d_ban_member" id="5*c_#o9_Me)S!*Q[IIn4">
+                    <value name="MEMBER">
+                      <block type="s4d_message_member" id="Xa!_{i]8_=lARM;5_AuD"></block>
+                    </value>
+                    <value name="STRING">
+                      <block type="text" id="g1*)to4VpCh;wD2M{K=d">
+                        <field name="TEXT">slur</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="controls_if" id="C!t::K3c,V*B[N!?Jsay">
+                <value name="IF0">
+                  <block type="s4d_includes" id="Q1h%IFXpKU2.fe/+k;UE">
+                    <value name="TEXT">
+                      <shadow type="text">
+                        <field name="TEXT">abc</field>
+                      </shadow>
+                      <block type="variables_get" id="_4+Sj4eop9sf+IGx]aER">
+                        <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                      </block>
+                    </value>
+                    <value name="INCLUDES">
+                      <shadow type="text" id="u2CIKQNRl)-:.fKe[uj|">
+                        <field name="TEXT">nigger</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="s4d_delete" id="nhfW9EH6`?!:$r78z0xX">
+                    <next>
+                      <block type="s4d_ban_member" id="xjD!A;-OF4DGs|H#ig-5">
+                        <value name="MEMBER">
+                          <block type="s4d_message_member" id="[ScC5nd-qVF]X/9~BZ*{"></block>
+                        </value>
+                        <value name="STRING">
+                          <block type="text" id="5{L9%)7Pme-~_0GHBUs$">
+                            <field name="TEXT">slur</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="controls_if" id="o7D0%~kWA)~D7yP)0@:@">
+                    <value name="IF0">
+                      <block type="s4d_includes" id="R245T1G,9$c2qTjQ!2)L">
+                        <value name="TEXT">
+                          <shadow type="text">
+                            <field name="TEXT">abc</field>
+                          </shadow>
+                          <block type="variables_get" id="I5oK@Jyyt,)MI}{V!GCj">
+                            <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                          </block>
+                        </value>
+                        <value name="INCLUDES">
+                          <shadow type="text" id="ltmV@Z`=2L$OoKBJ/^/]">
+                            <field name="TEXT">fag</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="s4d_delete" id=":QtHB4O;48F]bOkEk5mi">
+                        <next>
+                          <block type="s4d_ban_member" id="u[,:qHMUvpJ-+jU.v~H-">
+                            <value name="MEMBER">
+                              <block type="s4d_message_member" id="$QZMbZN_ig`W%`.mP3MD"></block>
+                            </value>
+                            <value name="STRING">
+                              <block type="text" id="#c4HW*@i;;dl+=4BrQiu">
+                                <field name="TEXT">slur</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="controls_if" id="G28YX8Y,DOI)#%oo[=ZC">
+                        <value name="IF0">
+                          <block type="s4d_includes" id="-l5pQZ6r(?/mM?4}#xgm">
+                            <value name="TEXT">
+                              <shadow type="text">
+                                <field name="TEXT">abc</field>
+                              </shadow>
+                              <block type="variables_get" id="PKl]hs:7f0}EL(3q_lu,">
+                                <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                              </block>
+                            </value>
+                            <value name="INCLUDES">
+                              <shadow type="text" id="kwyzI;Y(B4G?}e4wIDJ0">
+                                <field name="TEXT">fagot</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="s4d_delete" id="3nQTM6$RT2?#]G3*2aDA">
+                            <next>
+                              <block type="s4d_ban_member" id="r)nB@.79Re7HG/JOmt*g">
+                                <value name="MEMBER">
+                                  <block type="s4d_message_member" id="e5sB-T-Y4S!iZTdDF53d"></block>
+                                </value>
+                                <value name="STRING">
+                                  <block type="text" id="u*l(/Vg(#Qip^C_D}0b*">
+                                    <field name="TEXT">slur</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="controls_if" id="D+#(bxxs#kpePG9{E-15">
+                            <value name="IF0">
+                              <block type="s4d_includes" id="K{#]JIOdJcN8~MXx0UUl">
+                                <value name="TEXT">
+                                  <shadow type="text">
+                                    <field name="TEXT">abc</field>
+                                  </shadow>
+                                  <block type="variables_get" id="+OxwL8]9BLwqY=3*1/6$">
+                                    <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                                  </block>
+                                </value>
+                                <value name="INCLUDES">
+                                  <shadow type="text" id="!a,k;2F1eJ#F=CqoQo{c">
+                                    <field name="TEXT">faget</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO0">
+                              <block type="s4d_delete" id="/*z}xfZW0RXxu46.vKO$">
+                                <next>
+                                  <block type="s4d_ban_member" id="C|S2v/5#CCX.5K2|Z|(9">
+                                    <value name="MEMBER">
+                                      <block type="s4d_message_member" id="#?O^hJI},Dub6?!GypV+"></block>
+                                    </value>
+                                    <value name="STRING">
+                                      <block type="text" id="gR%qg9LCg%Y:VMVq2ygv">
+                                        <field name="TEXT">slur</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="controls_if" id="FoXm|`.RS;fA~=PqlsjT">
+                                <value name="IF0">
+                                  <block type="s4d_includes" id="2%{DJej7mIYog6Q9/,9H">
+                                    <value name="TEXT">
+                                      <shadow type="text">
+                                        <field name="TEXT">abc</field>
+                                      </shadow>
+                                      <block type="variables_get" id="DJLd;a2TUP}2}o@=28kG">
+                                        <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                                      </block>
+                                    </value>
+                                    <value name="INCLUDES">
+                                      <shadow type="text" id="l_nUimZI=qC}E!!bk1s6">
+                                        <field name="TEXT">fagget</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="s4d_delete" id="dvM8*U-^JTf#{^5rC)EF">
+                                    <next>
+                                      <block type="s4d_ban_member" id="B51sg,2S!T+__6!5cn?G">
+                                        <value name="MEMBER">
+                                          <block type="s4d_message_member" id=",mA|+}-J-!a]:GfW4`W9"></block>
+                                        </value>
+                                        <value name="STRING">
+                                          <block type="text" id="RuhG{]9hz/^zDjLP(yO~">
+                                            <field name="TEXT">slur</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                                <next>
+                                  <block type="controls_if" id="Usl_4Smg$zM;Se|d|}zg">
+                                    <value name="IF0">
+                                      <block type="s4d_includes" id="Ft,X.iJ+WF~jW{ZWceAO">
+                                        <value name="TEXT">
+                                          <shadow type="text">
+                                            <field name="TEXT">abc</field>
+                                          </shadow>
+                                          <block type="variables_get" id="f-x*NvrUrEb.~waTg@TQ">
+                                            <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                                          </block>
+                                        </value>
+                                        <value name="INCLUDES">
+                                          <shadow type="text" id="jC(kGnk#]KB)PmYdHNU+">
+                                            <field name="TEXT">faggot</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO0">
+                                      <block type="s4d_delete" id="m`EmLdZB=xjJDYZT|~_p">
+                                        <next>
+                                          <block type="s4d_ban_member" id="[H[Rm?HEV@vJE{n?zlt2">
+                                            <value name="MEMBER">
+                                              <block type="s4d_message_member" id="X|e@nVB!)*Sn`~pL?gj,"></block>
+                                            </value>
+                                            <value name="STRING">
+                                              <block type="text" id="G*$8l!cva/k7ekf?+nIS">
+                                                <field name="TEXT">slur</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="controls_if" id="v%TRUHoz3ir,PY1d,=M`">
+                                        <value name="IF0">
+                                          <block type="s4d_includes" id=")-Yhg{$HRFu#xRun|{C+">
+                                            <value name="TEXT">
+                                              <shadow type="text">
+                                                <field name="TEXT">abc</field>
+                                              </shadow>
+                                              <block type="variables_get" id="!CceJmSzzC^9d,I,,J2O">
+                                                <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                                              </block>
+                                            </value>
+                                            <value name="INCLUDES">
+                                              <shadow type="text" id="F]PVkFSW.0xtra3QlYgH">
+                                                <field name="TEXT">retard</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <statement name="DO0">
+                                          <block type="s4d_delete" id=".a?nIpfo$8?JiyAon}#+">
+                                            <next>
+                                              <block type="s4d_ban_member" id=")Q~]qvctfqC3kmH!Nxnx">
+                                                <value name="MEMBER">
+                                                  <block type="s4d_message_member" id="2:(-}[OA,*,_fRWRcgRl"></block>
+                                                </value>
+                                                <value name="STRING">
+                                                  <block type="text" id="F7U]#(NjbkZ+caHo+-oJ">
+                                                    <field name="TEXT">slur</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="controls_if" id="kyz?1?+N/hj9mS@=t})w">
+                                            <value name="IF0">
+                                              <block type="s4d_includes" id="c?;09pj.b@{66L}5)FZN">
+                                                <value name="TEXT">
+                                                  <shadow type="text">
+                                                    <field name="TEXT">abc</field>
+                                                  </shadow>
+                                                  <block type="variables_get" id="$a%C#DCVb0KgRy)=Q@g1">
+                                                    <field name="VAR" id="zw5[ufzxD]Ub/ll;rFp}">cmd</field>
+                                                  </block>
+                                                </value>
+                                                <value name="INCLUDES">
+                                                  <shadow type="text" id="]0f5nJuTS.#E`ziQMusK">
+                                                    <field name="TEXT">tranny</field>
+                                                  </shadow>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <statement name="DO0">
+                                              <block type="s4d_delete" id="0KG5v1/|7RSO+JK[/L+E">
+                                                <next>
+                                                  <block type="s4d_ban_member" id="_T(R0ZY8wu8$Z?*G=|cT">
+                                                    <value name="MEMBER">
+                                                      <block type="s4d_message_member" id=")DNl$FkS-5Kp[LvK?+gk"></block>
+                                                    </value>
+                                                    <value name="STRING">
+                                                      <block type="text" id=",.^]{y4(b!W_cd9XhNP}">
+                                                        <field name="TEXT">slur</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
